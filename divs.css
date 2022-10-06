@@ -1,0 +1,104 @@
+body{
+    background-color: #f2f2f2;
+    height: 1000px;
+}
+
+.topBarMenu {
+    position: fixed;
+    top: 0px;
+    right: -10px;
+    left: -10px;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-color: #8f8f8f;
+    background-image: url("images/bg.png");
+}
+
+.homeButton{
+    left: 200px;
+    color: white;
+}
+
+.teams{
+    left: 350px;
+    color: white;
+}
+
+.leaders{
+    left: 500px;
+    color: white;
+}
+
+.donate{
+    left: 800px;
+    color: white;
+}
+
+.contact{
+    left: 650px;
+    color: white;
+}
+
+.socialMedia{
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    height: 100px;
+    width: 200px;
+    background-color: #000000;
+    border-radius: 40px;
+    opacity: 0.75;
+    z-index: 100;
+
+}
+
+.homeButton, .teams, .leaders, .donate, .contact{
+    position: absolute;
+    top: 25px;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    opacity: 0.7;
+    border-color: #8f8f8f;
+    border-width: 1px;
+    background-color: rgb(132, 132, 250);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    transition: 250ms;
+}
+
+.homeButton:hover, .teams:hover, .leaders:hover, .donate:hover, .contact:hover{
+    background-color: #505050;
+}
+
+
+.homeButtonText, .teamsText, .leadersText, .donateText, .contactText{
+    margin-top: 10px;
+}
+
+.mcchsLogo{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    height: 150px;
+    box-shadow: 5px 5px 10px #000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8f8f8f;
+}
+
+.footer{
+    position: fixed;
+    left: -10px;
+    right: -10px;
+    bottom: 0px;
+    height: 20px;
+    background-color: #000000;
+    border-top-style: solid;
+    border-width: 1px;
+    border-top-color:#FFFFFF;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    text-align: center;
+}
