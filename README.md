@@ -1,2 +1,2 @@
 # mcchsrobotics.com
-MCCHS Robotics Webstie
+MCCHS Robotics Website
